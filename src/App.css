@@ -1,0 +1,69 @@
+.App {
+  margin: 100px;
+  padding-top: 40px;
+}
+
+.Main {
+  margin: 30px;
+  border: 1px solid black;
+  width: 45%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.Main input {
+  padding: 10px;
+  margin: 5px;
+  width: 70%;
+}
+
+.MainBtn {
+  margin-top: 10px;
+  color: brown;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 100px;
+}
+
+.Header {
+  /* background-color: #2874a6; */
+  /* background: linear-gradient(to right, #2874a6, blue); */
+  /* background: repeating-linear-gradient(
+    45deg,
+    red,
+    red 50px,
+    blue 50px,
+    blue 100px
+  ); */
+  /* background: linear-gradient(to bottom, red 10%, green 90%); */
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  padding-left: -300px;
+  width: 457px;
+  height: 200px;
+  background: linear-gradient(to top, #d4e6f1 50%, #256015 50%);
+}
+.Header h1,
+p {
+  text-align: left;
+}
+.subMain {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subMain p {
+  margin-right: 0px;
+  font-size: 12px;
+  padding-left: 320px;
+}
+
+.sub-codetea {
+  border-right: none;
+  border-left: none;
+  outline: none;
+}
